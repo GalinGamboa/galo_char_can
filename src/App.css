@@ -1,38 +1,84 @@
-.App {
+.header{
+  height: 70vh;
+  background-image: linear-gradient(to top, rgba(161,140,209,0.2) 0%,rgba(251, 194, 235,0.2) 100%), url(/public/images/wallpaper/paisaje.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.header_home{
   text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:rgb(220, 220, 220);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer{
+  background-color: #272727;
+  padding-bottom: 0.1px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  
+.footer_content{
+  display:flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
-
-.App-link {
-  color: #61dafb;
+    
+.contact_us {
+  width: 40%;
+  color:rgb(197, 194, 194)
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
+  
+.brand {
+  font-weight: 500;
+  font-size: 40px;
+}
+  
+.brand+p{
+  font-weight: 500;
+}
+  
+.social_media{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+  
+.social_media_icon{
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: solid rgb(197, 194, 194) 1.5px ;
+  border-radius: 50%;
+  text-align: center;
+  color: rgb(197, 194, 194);
+}
+  
+.social_media_icon i {
+  font-size: 35px;
+  line-height: 60px;
+}
+  
+.social_media_icon:hover{
+  background-color: rgb(197, 194, 194);
+  color: #2c2b2c;
+}
+  
+.line {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  height: 2.5px;
+  margin-bottom: 30px;
+  background-color: rgb(197, 194, 194);
 }
